@@ -1,0 +1,7 @@
+Reunion 14/10 hora 10pm:
+participantes:
+Huancara Colqque Alex Helder
+Inca Cruz Carlos Eduardo
+
+Se decidio usar las librerias pygame y pygame-menu para la interfaz grafica del juego, ademas se converso acerca del rendimiento del OpenGL
+descartandolo por su baja optimizacion.
