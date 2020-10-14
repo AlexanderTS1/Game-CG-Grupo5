@@ -9,4 +9,3 @@ def make_move(self, map):
 
         else:
             self.direction = self.movement_path[0]
-            self.move(map, bombs, explosions, enemy)
