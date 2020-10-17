@@ -1,0 +1,10 @@
+DESARROLLO DE UN JUEGO EN 2D - PROYECTO FINAL DE COMPUTACION GRAFICA
+
+OBJETIVOS:
+
+- Utilizar los conceptos basicos avanzados del curso
+- Utilizar las librerias implementadas en el laboratorio de Computacion grafica
+
+DESARROLLO DEL PROYECTOS:
+
+1. IDEA DEL JUEGO:
