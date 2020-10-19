@@ -31,9 +31,9 @@ def pixelate_rgb(img, window):
     for x in range(0, n, window):
         for y in range(0, m, window):
             img1[x:x+window,y:y+window] = img[x:x+window,y:y+window].mean(axis=(0,1))
-    for x in range(0, n, window):
-        for y in range(0, m, window):
-            print(img1[x:x+window,y:y+window])
+    for x in range(0, 30):
+        for y in range(0, 30):
+            print(img1[x,y])
     return img1
 
 img = plt.imread('soldier.png')
