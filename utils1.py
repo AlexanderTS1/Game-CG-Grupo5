@@ -29,10 +29,10 @@ def set_pixel(x, y, r, g, b, size):
 	# pygame.time.wait(100)
 
 	# option 1 (ok)
-	# pygame.display.flip()
+	#pygame.display.flip()
 	
 	# option 2
-	# glFlush()
+	#glFlush()
 
 def color_pixel(width, height, x, y, size):
 	rgb = glReadPixels(width / 2 + x , height / 2 + y, size ,size , 

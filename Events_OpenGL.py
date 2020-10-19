@@ -39,7 +39,7 @@ def main():
 			if event.type == pygame.KEYDOWN:
 				if event.key == pygame.K_a:
 					print("K_a")
-			
+		glFlush()
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_LEFT :
 				print("K_LEFT")
@@ -62,6 +62,6 @@ def main():
 				sx = 0
 				sy = -0.2
 				x, y = MoveDefender(x, y, sx, sy, 255/255, 0/255, 0/255, scale)
-				
+		glFlush()
 if __name__ == '__main__':
 	main()
