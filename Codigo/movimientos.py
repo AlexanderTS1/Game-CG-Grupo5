@@ -11,7 +11,7 @@ DISPLAYSURF = pygame.display.set_mode((600, 700), 0, 32)
 pygame.display.set_caption('Animation')
 
 WHITE = (255, 255, 255)
-img = pygame.image.load('descarga.jpg')
+img = pygame.image.load('result.png')
 imgx = 10
 imgy = 15
 direction = 'right'
