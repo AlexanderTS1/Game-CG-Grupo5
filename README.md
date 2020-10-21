@@ -20,3 +20,8 @@ DESARROLLO DEL PROYECTOS:
 4 impactos de bala hará que el oponente gire 45 grados
 - 8 impactos de bala hara que el oponente gire 90 grados, caso que significará la muerte del oponente y exapropiacion de la nave que sera trasladado al terreno del player
 - El juego termina cuando el player gana 5 naves.
+
+3. DESAROLLO DEL CODIGO
+- Herramienta a utilizar python con librerias(PyOpenGL, pygame, numpy)
+- Se grafica y pinta el personaje utilizando matrices
+- El fondo es una matriz  que tiene el mismo tamaño del display
