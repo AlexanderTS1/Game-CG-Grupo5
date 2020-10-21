@@ -9,12 +9,12 @@
 from utils1 import *
 
 def main():
-	scale = 1
-	width, height = 400, 400
+	scale = 2
+	width, height = scale*300, scale*300
 
 	pygame.init()
 	pygame.display.set_caption('C.G. I')
-	
+
 	display_openGL(width, height, scale)
 	# glColor3f(1.0, 0, 0)
 
@@ -26,12 +26,25 @@ def main():
 	set_pixel(x, y, 255/255, 255/255, 255/255, scale)
 
 	x, y = 0, 0
-	x, y = MoveDefender(x, y, 0, 0, 255/255, 0/255, 0/255, scale)
+	x, y = MovePlane(x, y, 0, 0, scale)
+
+	vertices = [(-200,200),(200,200),(200,-200),(-200,-200)
+	]
+	
+	xi = 20
+	yi = 25
+
+	DrawPolygon(vertices, 255/255, 0/255, 0/255, scale)
+	SimpleSeedFill(width, height, scale, vertices, xi, yi, 255/255, 0/255, 0/255)
 
 	print("Finish...")
 	glFlush()
 	pygame.display.flip()
-	 
+	
+	
+	
+
+
 	while True:
 		for event in pygame.event.get():
 			if event.type == QUIT:
@@ -39,29 +52,29 @@ def main():
 			if event.type == pygame.KEYDOWN:
 				if event.key == pygame.K_a:
 					print("K_a")
-		glFlush()
+
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_LEFT :
 				print("K_LEFT")
-				sx = 0.2
+				sx = 10
 				sy = 0
-				x, y = MoveDefender(x, y, sx, sy, 255/255, 0/255, 0/255, scale)
+				x, y = MovePlane(x, y, sx, sy, scale)
 			elif event.key == pygame.K_RIGHT:
 				print("K_RIGHT")
-				sx = -0.2
+				sx = -10
 				sy = 0
-				x, y = MoveDefender(x, y, sx, sy, 255/255, 0/255, 0/255, scale)
+				x, y = MovePlane(x, y, sx, sy, scale)
 			elif event.key == pygame.K_UP :
 				print("K_UP")
 				sx = 0
-				sy = 0.2
-				x, y = MoveDefender(x, y, sx, sy, 255/255, 0/255, 0/255, scale)
-				set_pixel(50, 50, 255/255, 255/255, 255/255, 3)
+				sy = 10
+				x, y = MovePlane(x, y, sx, sy, scale)
+				#set_pixel(50, 50, 255/255, 255/255, 255/255, 3)
 			elif event.key == pygame.K_DOWN :
 				print("K_DOWN")
 				sx = 0
-				sy = -0.2
-				x, y = MoveDefender(x, y, sx, sy, 255/255, 0/255, 0/255, scale)
-		glFlush()
+				sy = -10
+				x, y = MovePlane(x, y, sx, sy, scale)
+		
 if __name__ == '__main__':
 	main()
