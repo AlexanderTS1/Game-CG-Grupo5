@@ -4,9 +4,15 @@ Desarrollar un proyecto utilizando los materiales de la clase
 
 DESARROLLO DE UN JUEGO EN 2D - PROYECTO FINAL DE COMPUTACION GRAFICA
 
+CURSO: Computación Grafica I
+DOCENTE: Quintanilla Portugal,Roxana Lisette
+Estudiantes: Inca Cruz, Carlos Eduardo
+             Huancara Ccolque, Alex Helder
+             Ttito Saya, Alexander
+
 OBJETIVOS:
 
-- Utilizar los conceptos basicos avanzados del curso
+- Utilizar los conceptos basicos avanzados del curso relacionados con graficas en 2D
 - Utilizar las librerias implementadas en el laboratorio de Computacion grafica
 
 DESARROLLO DEL PROYECTOS:
@@ -25,3 +31,4 @@ DESARROLLO DEL PROYECTOS:
 - Herramienta a utilizar python con librerias(PyOpenGL, pygame, numpy)
 - Se grafica y pinta el personaje utilizando matrices
 - El fondo es una matriz  que tiene el mismo tamaño del display
+- Se utiliza los eventos del pygame
