@@ -1,8 +1,13 @@
+
+
 # Game-CG
 Desarrollar un proyecto utilizando los materiales de la clase
+# Dependencias:
+ *Python 3.8.6
+ *Pygame 1.9.3
+ *PyOPENGL 3.1.5
 
-
-DESARROLLO DE UN JUEGO EN 2D - PROYECTO FINAL DE COMPUTACION GRAFICA
+PROYECTO: DESARROLLO DE UN JUEGO EN 2D - PROYECTO FINAL DE COMPUTACION GRAFICA
 
 OBJETIVOS:
 
