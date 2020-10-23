@@ -8,7 +8,7 @@ CURSO: Computación Grafica I
 
 DOCENTE: Quintanilla Portugal,Roxana Lisette
 
-Estudiantes: 
+ESTUDIANTES: 
 - Inca Cruz, Carlos Eduardo
 - Huancara Ccolque, Alex Helder
 - Ttito Saya, Alexander
