@@ -21,7 +21,7 @@ Desarrollar un proyecto utilizando los materiales de la clase
 
 **ESTUDIANTES:** 
 - **Inca Cruz, Carlos Eduardo** - _GitHub Account_ - [CarlosEdu322](https://github.com/CarlosEdu322)
-- **Huancara Ccolque, Alex Helder** - _GitHub Account_ - [AlexHelder-Tyzer](https://github.com/AlexHelder-Tyzer)
+- **Huancara Ccolqque, Alex Helder** - _GitHub Account_ - [AlexHelder-Tyzer](https://github.com/AlexHelder-Tyzer)
 - **Ttito Saya, Alexander** - _GitHub Account_ - [AlexanderTS1](https://github.com/AlexanderTS1)
 
 **OBJETIVOS:**
