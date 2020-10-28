@@ -154,9 +154,17 @@ def main():
                         #set_pixel( 500, 700, 0/255, 0/255,250/255, 100)
                         BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
                         if (VidaHumano==0):
-                                print("Perdistes pe causa")
+                                BarraDeVida(400,700,VidaMonster,VidaMaximaMonster,10)
+                                BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
+                                pygame.display.flip()
+                                pygame.time.wait(5000)
+                                print("Perdistes")
                                 gameOver=True
                         if (VidaMonster==0):
+                                BarraDeVida(400,700,VidaMonster,VidaMaximaMonster,10)
+                                BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
+                                pygame.display.flip()
+                                pygame.time.wait(5000)
                                 nivel=nivel+1
                                 xjugador, yjugador = 160,460
                                 posicion="D"
@@ -235,9 +243,17 @@ def main():
                         #set_pixel( 500, 700, 0/255, 0/255,250/255, 100)
                         BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
                         if (VidaHumano==0):
-                                print("Perdistes pe causa")
+                                BarraDeVida(400,700,VidaMonster,VidaMaximaMonster,10)
+                                BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
+                                pygame.display.flip()
+                                pygame.time.wait(5000)
+                                print("Perdistes")
                                 gameOver=True
                         if (VidaMonster==0):
+                                BarraDeVida(400,700,VidaMonster,VidaMaximaMonster,10)
+                                BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
+                                pygame.display.flip()
+                                pygame.time.wait(5000)
                                 nivel=nivel+1
                                 xjugador, yjugador = 160,460
                                 posicion="D"
@@ -312,9 +328,19 @@ def main():
                         #set_pixel( 500, 700, 0/255, 0/255,250/255, 100)
                         BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
                         if (VidaHumano==0):
-                                print("Perdistes pe causa")
+                                BarraDeVida(400,700,VidaMonster,VidaMaximaMonster,10)
+                                BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
+                                pygame.display.flip()
+                                pygame.time.wait(5000)
+                                print("Perdistes")
                                 gameOver=True
+                                
                         if (VidaMonster==0):
+                                BarraDeVida(400,700,VidaMonster,VidaMaximaMonster,10)
+                                BarraDeVida(100,700,VidaHumano,VidaMaximaHumano,10)
+                                pygame.display.flip()
+                                pygame.time.wait(5000)
+                                
                                 nivel=nivel+1
                                 xjugador, yjugador = 160,460
                                 posicion="D"
@@ -331,7 +357,7 @@ def main():
                                 #posicion criatura
                                 posxcriatura=500
                                 posycriatura=250
-                                print("Gano mas de lo que se imagina")
+                                print("Gano !!!!!!")
                                 gameOver=True
                 
 
