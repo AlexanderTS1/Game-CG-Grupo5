@@ -43,7 +43,7 @@ Al implementar el juego se utilizará los algoritmos implementados en el laborat
 - El juego termina cuando la barra del soldado queda vacío
 
 **3. DESAROLLO DEL CODIGO**
-- Herramienta a utilizar Python 3.8.6 con librerias(Pygame 1.9.3,PyOPENGL 3.1.5)
-- Se grafica y pinta el personaje utilizando matrices(Librería numpy de Paython)
-- El fondo es una matriz  que tiene el mismo tamaño del display
-- Se utiliza los eventos del pygame
+- Herramienta a utilizar Python 3.8.6 con librerias(Pygame 1.9.3,PyOPENGL 3.1.5) https://www.python.org/
+- Se grafica y pinta el personaje utilizando matrices(Librería numpy de Paython) https://pypi.org/project/numpy/
+- El fondo es una matriz  que tiene el mismo tamaño del display 
+- Se utiliza los eventos del pygame https://pypi.org/project/pygame/
