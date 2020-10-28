@@ -887,6 +887,8 @@ def CampoDeBatalla2(size):
 
 def BarraDeVida(posx,posy,vida,vidamaxima,scale):
         DDA(posx, posy, posx+vidamaxima*scale, posy, 255/255, 0/255,0/255, scale)
+        
         DDA(posx, posy, posx+vida*scale, posy, 0/255, 0/255,255/255, scale)
-                
+
+       
         
