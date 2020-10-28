@@ -17,7 +17,7 @@ def main():
         width, height = 800, 800
 
         pygame.init()
-        pygame.display.set_caption('Juego grupo 5')
+        pygame.display.set_caption('DiMiTri Boss')
         
         pantalla=display_openGL(width, height, scale)
         # glColor3f(1.0, 0, 0)
@@ -198,7 +198,7 @@ def main():
                                 origenbalax=xjugador
                                 origenbalay=yjugador
                         #Verificar daño hacia el mountruo
-                        if abs(origenbalax -posxmonster)<10 and 350<origenbalay<700:
+                        if abs(origenbalax -posxmonster)<15 and 350<origenbalay<700:
                                 VidaMonster=VidaMonster-1
                                 print("Vida Monster",VidaMonster)
                                 isShot=False
@@ -275,7 +275,7 @@ def main():
                                 origenbalax=xjugador
                                 origenbalay=yjugador
                         #Verificar daño hacia el mountruo
-                        if abs(origenbalax -posxmonster)<10 and 0<origenbalay<350:
+                        if abs(origenbalax -posxmonster)<10 and 0<origenbalay<400:
                                 VidaMonster=VidaMonster-1
                                 print("Vida Monster",VidaMonster)
                                 isShot=False
