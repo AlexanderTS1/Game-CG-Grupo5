@@ -1,7 +1,12 @@
 from utils3 import *
 import pygame
 def main():
-
+        #sonido
+        '''file = 'music1.mp3'
+        pygame.init()
+        pygame.mixer.init()
+        pygame.mixer.music.load(file)
+        pygame.mixer.music.play(-1) # If the loops is -1 then the music will repeat indefinitely.'''
         print("1.-Dificultad basica")
         print("2.-Dificultad intermedia")
         print("3.-Dificultad avanzada")
