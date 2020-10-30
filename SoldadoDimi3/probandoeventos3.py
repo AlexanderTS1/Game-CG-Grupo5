@@ -1,6 +1,5 @@
 from utils3 import *
 import pygame
-import pyglet
 def main():
 
         print("1.-Dificultad basica")
@@ -21,10 +20,10 @@ def main():
         pygame.display.set_caption('DiMiTri Boss')
         
         pantalla=display_openGL(width, height, scale)
-        music = pyglet.resource.media('Musica.mp3')
+        '''music = pyglet.resource.media('Musica.mp3')
         music.play()
 
-        pyglet.app.run()
+        pyglet.app.run()'''
         # glColor3f(1.0, 0, 0)
 
         # -------
