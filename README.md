@@ -48,3 +48,7 @@ Al implementar el juego se utilizará los algoritmos implementados en el laborat
 - Posteriormente se hace uso de la libreria (PyOpenGL-accelerate 3.1.5) - _PyOpenGL-accelerate_ - [Instalar PyOpenGL-accelerate](https://pypi.org/project/PyOpenGL-accelerate/).
 - El fondo es una matriz  que tiene el mismo tamaño del display 
 - Se utiliza los eventos del pygame - _Pygame_ - [Instalar PIP Pygame](https://pypi.org/project/pygame/).
+
+
+**4. Gameplay**
+https://www.youtube.com/watch?v=J75kIL4xMk8
