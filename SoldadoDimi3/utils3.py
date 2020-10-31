@@ -147,7 +147,7 @@ def CampoDeBatalla(size):
                                 #set_pixel(j*size, i*size, 102/255,102/255,102/255, size)
                         #Color borde
                         if matrix[i][j] == 1:
-                                set_pixel(j*size, i*size,76/255,153/255,0/255, size)
+                                set_pixel(j*size, i*size,0/255,76/255,153/255, size)
                         if matrix[i][j] == 2:
                                 set_pixel(j*size, i*size,153/255,76/255,0/255, size)
                         if matrix[i][j] == 3:
@@ -862,11 +862,11 @@ def CampoDeBatalla2(size):
         for i in range(len(matrix)):
                 for j in range(len(matrix[0])):
                         if matrix[i][j] == 0:
-                                set_pixel(j*size, i*size, 185/255,36/255,19/255, size)
+                                set_pixel(j*size, i*size,255/255,178/255,102/255, size)
                                 #set_pixel(j*size, i*size, 102/255,102/255,102/255, size)
                         #Color borde
                         if matrix[i][j] == 1:
-                                set_pixel(j*size, i*size,0/255,51/255,102/255, size)
+                                set_pixel(j*size, i*size,185/255,36/255,19/255, size)
                         if matrix[i][j] == 2:
                                 set_pixel(j*size, i*size,20/255,20/255,20/255, size)
                         if matrix[i][j] == 3:
