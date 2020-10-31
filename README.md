@@ -44,6 +44,7 @@ Al implementar el juego se utilizará los algoritmos implementados en el laborat
 
 **3. DESAROLLO DEL CODIGO**
 - Herramienta a utilizar Python 3.8.6 con librerias(Pygame 1.9.3,PyOPENGL 3.1.5) - _Python_ - [Intalar Python 3.8.6](https://www.python.org/downloads/release/python-386/).
-- Se grafica y pinta el personaje utilizando matrices(Librería numpy de Paython) - _numpy_ - [Instalar pip numpy](https://pypi.org/project/numpy/). - _PyOPENGL_ - [Instalr pip PyOPENGL](https://pypi.org/project/PyOpenGL/). 
+- Se grafica y pinta el personaje utilizando matrices(Librería numpy de Python) - _numpy_ - [Instalar pip numpy](https://pypi.org/project/numpy/). - _PyOPENGL_ - [Instalr pip PyOPENGL](https://pypi.org/project/PyOpenGL/). 
+- Posteriormente se hace uso de la libreria (PyOpenGL-accelerate 3.1.5) - _PyOpenGL-accelerate_ - [Instalar PyOpenGL-accelerate](https://pypi.org/project/PyOpenGL-accelerate/).
 - El fondo es una matriz  que tiene el mismo tamaño del display 
 - Se utiliza los eventos del pygame - _Pygame_ - [Instalar PIP Pygame](https://pypi.org/project/pygame/).
